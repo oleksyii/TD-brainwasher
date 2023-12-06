@@ -2,6 +2,7 @@ import SerhiiImage from './images/Serhii.jpeg'
 import VladImage from './images/Vlad.jpeg';
 import VasylImage from './images/Vasyl.jpeg'
 import OLeksiiImage from './images/Oleksii.jpeg';
+import RomanImage from './images/Roman.jpeg';
 
 
 import './App.css';
@@ -40,6 +41,13 @@ function App() {
             position="Bomba UI/UX"
             photoUrl={OLeksiiImage}
             color="cyan"
+            />
+          <TeamMember
+            name="Roman"
+            surname="Skok"
+            position="Trainee CEO"
+            photoUrl={RomanImage}
+            color="purple"
             />
         </div>
     </div>
