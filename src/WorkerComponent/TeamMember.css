@@ -3,12 +3,12 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 150px;
+    width: 200px;
 }
 
 .photo {
+    display: block;
     margin-bottom: 10px;
-
 }
 
 .Name {
@@ -23,7 +23,6 @@
 }
 
 .photo img {
-    min-width: 100%;
-    min-height: 150px;
+    width: 100%;
     object-fit: cover;
 }
