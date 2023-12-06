@@ -1,4 +1,5 @@
 import SerhiiImage from './images/Serhii.jpeg'
+import VladImage from './images/Vlad.jpeg';
 import './App.css';
 import TeamMember from "./WorkerComponent/TeamMember";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,6 +14,13 @@ function App() {
             surname="Shevchuk"
             position="Backend developer"
             photoUrl={SerhiiImage}
+            color="green"
+            />
+             <TeamMember
+            name="Vlad"
+            surname="Yakymchuk"
+            position="QA engineer"
+            photoUrl={VladImage}
             color="green"
             />
       </div>
