@@ -1,4 +1,5 @@
 import SerhiiImage from './images/Serhii.jpeg'
+import VasylImage from './images/Vasyl.jpeg'
 import './App.css';
 import TeamMember from "./WorkerComponent/TeamMember";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -14,6 +15,13 @@ function App() {
             position="Backend developer"
             photoUrl={SerhiiImage}
             color="green"
+            />
+          <TeamMember
+              name="Vasyl"
+              surname="Syman"
+              position="Frontend developer"
+              photoUrl={VasylImage}
+              color="orange"
             />
       </div>
     </div>
