@@ -21,7 +21,7 @@ function App() {
               surname="Syman"
               position="Frontend developer"
               photoUrl={VasylImage}
-              color="orange"
+              color="blue"
             />
       </div>
     </div>
