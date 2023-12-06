@@ -20,12 +20,13 @@ function App() {
             photoUrl={SerhiiImage}
             color="green"
             />
-             <TeamMember
+          <TeamMember
             name="Vlad"
             surname="Yakymchuk"
             position="QA engineer"
             photoUrl={VladImage}
             color="green"
+            />
           <TeamMember
               name="Vasyl"
               surname="Syman"
@@ -33,14 +34,14 @@ function App() {
               photoUrl={VasylImage}
               color="orange"
             /> 
-        <TeamMember
+          <TeamMember
             name="Oleksii"
             surname="Uzhva"
             position="Bomba UI/UX"
             photoUrl={OLeksiiImage}
             color="cyan"
             />
-      </div>
+        </div>
     </div>
   );
 }
