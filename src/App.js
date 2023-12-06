@@ -1,6 +1,8 @@
 import SerhiiImage from './images/Serhii.jpeg'
+import VladImage from './images/Vlad.jpeg';
 import VasylImage from './images/Vasyl.jpeg'
 import OLeksiiImage from './images/Oleksii.jpeg';
+
 
 import './App.css';
 import TeamMember from "./WorkerComponent/TeamMember";
@@ -19,20 +21,27 @@ function App() {
             color="green"
             />
           <TeamMember
+            name="Vlad"
+            surname="Yakymchuk"
+            position="QA engineer"
+            photoUrl={VladImage}
+            color="green"
+            />
+          <TeamMember
               name="Vasyl"
               surname="Syman"
               position="Frontend developer"
               photoUrl={VasylImage}
               color="orange"
             /> 
-        <TeamMember
+          <TeamMember
             name="Oleksii"
             surname="Uzhva"
             position="Bomba UI/UX"
             photoUrl={OLeksiiImage}
             color="cyan"
             />
-      </div>
+        </div>
     </div>
   );
 }
