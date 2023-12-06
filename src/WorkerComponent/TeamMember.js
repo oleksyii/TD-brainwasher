@@ -7,7 +7,7 @@ const TeamMember = ({ name, surname, position, photoUrl, color }) => {
     };
 
     return (
-        <div className="worker-info border p-3 bg-light">
+        <div className="worker-info border p-3 bg-light m-2">
             <div className="name-surname">
                 <p className={"Name"}>{name} {surname}</p>
             </div>

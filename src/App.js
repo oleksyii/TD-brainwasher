@@ -7,13 +7,15 @@ function App() {
   return (
     <div className="m-4">
       <h2 className="text-primary fw-bold">My dream team</h2>
-      <TeamMember
-          name="Serhii"
-          surname="Shevchuk"
-          position="Backend developer"
-          photoUrl={SerhiiImage}
-          color="green"
-      />
+      <div className="d-flex">
+        <TeamMember
+            name="Serhii"
+            surname="Shevchuk"
+            position="Backend developer"
+            photoUrl={SerhiiImage}
+            color="green"
+            />
+      </div>
     </div>
   );
 }
