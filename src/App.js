@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import TeamMember from "./WorkerComponent/TeamMember";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const teamMember = {
