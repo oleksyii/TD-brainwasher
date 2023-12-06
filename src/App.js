@@ -1,5 +1,7 @@
 import SerhiiImage from './images/Serhii.jpeg'
 import VasylImage from './images/Vasyl.jpeg'
+import OLeksiiImage from './images/Oleksii.jpeg';
+
 import './App.css';
 import TeamMember from "./WorkerComponent/TeamMember";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -22,8 +24,14 @@ function App() {
               position="Frontend developer"
               photoUrl={VasylImage}
               color="orange"
+            /> 
+        <TeamMember
+            name="Oleksii"
+            surname="Uzhva"
+            position="Bomba UI/UX"
+            photoUrl={OLeksiiImage}
+            color="cyan"
             />
-      </div>
     </div>
   );
 }
