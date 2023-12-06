@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import SerhiiImage from './images/Serhii.jpeg'
 import './App.css';
 import TeamMember from "./WorkerComponent/TeamMember";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  const teamMember = {
-    name: 'John',
-    surname: 'Doe',
-    position: 'Software Developer',
-    photoUrl: logo,
-  };
-
   return (
-    <div className="App">
+    <div className="m-4">
+      <h2 className="text-primary fw-bold">My dream team</h2>
       <TeamMember
-          name={teamMember.name}
-          surname={teamMember.surname}
-          position={teamMember.position}
-          photoUrl={teamMember.photoUrl}
+          name="Serhii"
+          surname="Shevchuk"
+          position="Backend developer"
+          photoUrl={SerhiiImage}
+          color="green"
       />
     </div>
   );

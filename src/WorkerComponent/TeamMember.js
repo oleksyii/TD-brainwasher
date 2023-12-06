@@ -7,12 +7,12 @@ const TeamMember = ({ name, surname, position, photoUrl, color }) => {
     };
 
     return (
-        <div className="worker-info">
+        <div className="worker-info border p-3 bg-light">
             <div className="name-surname">
                 <p className={"Name"}>{name} {surname}</p>
             </div>
             <p className={"position"} style={dynamicStyle}>{position}</p>
-            <div className="photo">
+            <div className="photo mt-2">
                 <img src={photoUrl} alt={`${name} ${surname}`} />
             </div>
         </div>
